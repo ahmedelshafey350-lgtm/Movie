@@ -17,7 +17,6 @@
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1",
     "firebase": "^12.19.0",
-    "gh-pages": "^6.3.0",
     "mdb-react-ui-kit": "^10.0.0",
     "react": "^19.3.0",
     "react-bootstrap": "^2.10.10",
@@ -31,10 +30,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run bulid",
-    "deploy":"gh-pages -d bulid"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "homepage": "https://ahmedelshafey350-lgtm/Movie",
+  "homepage": "https://ahmedelshafey350-lgtm.github.io/Movies",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -52,5 +51,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
