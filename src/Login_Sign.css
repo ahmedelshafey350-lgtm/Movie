@@ -1,0 +1,22 @@
+
+
+.row {
+    position: relative;
+}
+
+.row1 p {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+}
+
+.row2 p {
+    position: absolute;
+    top: 67%;
+    left: 3%;
+    height: max-content !important;
+}
+.row5{
+    top: 90%;
+    left: 0%;
+}

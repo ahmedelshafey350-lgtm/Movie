@@ -1,0 +1,114 @@
+.Footer {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    background: linear-gradient(145deg, rgb(10, 71, 151), rgb(9, 54, 68));
+    height: 70vh;
+}
+
+.Footer div {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.Footer div h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #fff;
+}
+
+.Footer div ul {
+    list-style: none;
+}
+
+.Footer div ul li a {
+    color: #fff !important;
+}
+
+.Footer div ul li a:hover {
+    text-decoration: solid !important;
+    transform: translateY(-4px);
+}
+
+.select {
+    position: absolute;
+    top: 130%;
+    left: 45%;
+}
+
+.select div:first-child {
+    width: 200%;
+}
+
+.select div:first-child button {
+    width: 100%;
+    padding: 5px;
+    transform: none;
+}
+
+.select div:nth-child(2) {
+    background-color: #fff;
+    width: 350px;
+    height: 40vh;
+    position: absolute;
+    top: -828%;
+    padding: 20px;
+    color: #000;
+    border: #fff solid 1px;
+    border-radius: 10px;
+    display: none;
+    transition: 0.4s ease;
+}
+
+.select div:nth-child(2) h2 {
+    color: #000;
+    padding: 4px;
+    font-size: 16px !important;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: inherit;
+    margin-top: 6px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.select div h2:hover {
+    background-color: #06335f1a !important;
+}
+
+.select div:nth-child(2) div {
+    position: absolute;
+    top: 30%;
+    overflow-y: scroll;
+    height: 27vh;
+    left: 1%;
+    width: 334px;
+}
+
+.select div:nth-child(2) input {
+    width: 100%;
+    margin: 5px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border: solid rgb(0, 140, 255) 1px;
+    border-radius: 10px;
+}
+
+.lastbootom {
+    text-align: center;
+    max-width: 1400px;
+    margin: 25px auto;
+}
+
+@media (max-width:750px) {
+    .Footer {
+        grid-template-columns: repeat(1, 1fr);
+        height: max-content;
+    }
+    
+
+}
